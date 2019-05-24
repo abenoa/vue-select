@@ -805,6 +805,7 @@
           case 13:
             //  enter.prevent
             e.preventDefault();
+            e.stopPropagation();
             return this.typeAheadSelect();
         }
       }
